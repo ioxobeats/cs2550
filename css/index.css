@@ -1,0 +1,15 @@
+.author{
+    color: black
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.schedule th{
+    border: solid 1px black;
+}
+
+body{
+    font-family: Arial;
+}

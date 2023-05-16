@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- 
+        Header and Page Title
+        In the <head> element, set the title, which appears on the browser’s title bar. The title should read: About <your-name>
+    -->
+<head>
+    <title>About Rene van der Watt</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <!--
+        Put your name in a header, level 1.
+        Put a recognizable picture of you using an <img> tag.
+        Please use a paint program to resize and crop your image so that it is no larger than 500 by 500px (It does not have to be square).
+        If the image looks squashed or stretched I’m going to take off points.
+        The image should live in the same folder as your HTML page. 
+    -->
+    <h1>Rene van der Watt</h1>
+    <img src="./Renecs2550.png" alt="picture of me">
+
+    <!--
+        Personal Info
+        our personal info
+
+        Have a header (level 2) that says: “Personal Info:”
+
+        Next, use an unordered list (bullet points) and give me the following pieces of info:
+        Your major (spell it out. Don’t abbreviate).
+        Your high school, and the year you graduated.
+        What year are you in, currently, at UVU.
+        Your favorite flavor of ice cream (mmmm, ice cream).
+        Make use bold text for each label like in the example that I provided below.
+    -->
+    <h2>Personal Info:</h2>
+    <ul>
+        <li>
+            <span class="bold">Major: </span> Computer Science
+        </li>
+        <li>
+            <span class="bold">High School: </span> Not Applicable, I Received my GED from The State Of Utah, USA, 2017
+        </li>
+        <li>
+            <span class="bold">Current Year At UVU: </span> Sophmore
+        </li>
+        <li>
+            <span class="bold">Favorite ice cream: </span> Brownie Fudge
+        </li>
+    </ul>
+
+    <!--
+        Five Favorite Books
+        Enter your Five favorite books
+
+        Have a level-2 header titled “My five favorite books”
+
+        Choose five books that you like the best, and list them in the order of your preference.
+        Each title should be italicized. Each author’s name should be in regular text.
+        Add hyperlinks. For each of the five books you listed, make the author’s name a hyperlink to the author’s website.
+    -->
+    <h2>My five favorite books</h2>
+    <ol>
+        <li>
+            Enders Game: <a href="https://en.wikipedia.org/wiki/Ender%27s_Game" class="author" target="_blank">Orson Scott Card</a>
+        </li>
+        <li>
+            The God Father: <a href="https://en.wikipedia.org/wiki/The_Godfather_(novel)" class="author" target="_blank">Mario Puzo</a>
+        </li>
+        <li>
+            Fullmetal Alchemist: <a href="https://en.wikipedia.org/wiki/Fullmetal_Alchemist" class="author" target="_blank">Hiromu Arakawa</a>
+        </li>
+        <li>
+            Adventure Time Issue 3: <a href="https://adventuretime.fandom.com/wiki/Adventure_Time_(comic)" class="author" target="_blank">Ryan North</a>
+        </li>
+        <li>
+            The Satanic Bible: <a href="https://en.wikipedia.org/wiki/The_Satanic_Bible" class="author" target="_blank">Anton LaVey</a>
+        </li>
+    </ol>
+
+    <!--
+        Haiku
+        Compose a haiku or a limerick, or other short poem (3 or 4 lines). Please keep your poem PG-rated (no potty humor, no sexually suggestive stuff).
+
+        Have a level-2 header with a title of your poem
+        Have a sentence or two explaining your inspiration for the poem.
+        Put your poem after the header.
+        Each line should use line-breaks, not paragraph breaks.
+    -->
+    <h2>Sold My Soul For Code</h2>
+    <p>A poem to the son of God <br><br><br> In code and circuits I delight, <br> <br>As a student, my mind took flight. <br><br>But temptation arose, <br><br>When Satan proposed, <br><br>Coding evil, my soul took a byte!
+    </p>
+
+    <!--
+        Brief Essay
+        Make a level-2 header titled something like: “My personal interests”
+        Give me three paragraphs, with three or more sentences each. In each paragraph talk about something you’re interested in.
+    -->
+    <h2>What I Like To Do With My Off Time</h2>
+    <p>I love making music using digital audio workstations (DAWs), playing Magic: The Gathering, and learning about technology and computer science. Creating music with DAWs allows me to express my creativity by composing melodies and experimenting with different sounds. Playing Magic: The Gathering challenges my strategic thinking as I construct decks and engage in battles using powerful cards. I also enjoy exploring the world of technology and computer science, staying up-to-date with the latest advancements and learning coding languages. These interests of mine combine to fuel my creativity, analytical mindset, and curiosity for knowledge.</p>
+    
+    <!--
+        Class Schedule
+        For the Class Schedule I want you to create a table that shows your weekly class schedule. This is easy to do using table elements, but it does require some attention to detail.
+
+        Make a level-2 header titled “class schedule”
+        Create a table with 6 columns.
+        Set the border size to 1, so I can see the borders for each cell. Set the cell spacing to 3, and set the cell padding to 3.
+        The header row should have a blank cell, followed by cells for Monday, Tuesday, Wednesday, Thursday, and Friday. If you have a Saturday class (you poor soul), you can add a sixth column (or not, I don’t care, really).
+        
+        Going down the left side of the table, I want you to list out the hours of your week-day in 30-minute increments. You can start as early as you feel necessary.
+        List the classes you have as cells. Use the row-span element to block out as many 30-minute cells as you need for each item. If you have stuff that starts at an odd time, then guess. I won’t care, as long as it doesn’t look all wonky.
+        Fill up your schedule. Make stuff up if you have to. I want to see at least four classes that run M-W-F or Tu-Th or every weekday. In addition to classes, You can put your employment, your work-out time, your commute time, or anything else you like.
+        Use the rowspan attribute, so if you have an hour-long class, the cell should take up two rows, without a line between them.
+    -->
+    <h2>Class Schedule</h2>
+    <table class="schedule">
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
